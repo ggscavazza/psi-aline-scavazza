@@ -1,15 +1,15 @@
 import React from 'react';
 import { View } from 'react-native';
-import Header from './src/components/Header';
-import Hero from './src/components/Hero';
-import About from './src/components/About';
-import Services from './src/components/Services';
-import Testimonials from './src/components/Testimonials';
-import Contact from './src/components/Contact';
-import CTA from './src/components/CTA';
-import FAQ from './src/components/FAQ';
-import Footer from './src/components/Footer';
-import BackToTopButton from './src/components/BackToTopButton';
+import Header from './src/components/web/Header';
+import Hero from './src/components/web/Hero';
+import About from './src/components/web/About';
+import Services from './src/components/web/Services';
+import Testimonials from './src/components/web/Testimonials';
+import Contact from './src/components/web/Contact';
+import CTA from './src/components/web/Cta';
+import FAQ from './src/components/web/Faq';
+import Footer from './src/components/web/Footer';
+import BackToTopButton from './src/components/web/BackToTopButton';
 
 const AppWeb: React.FC = () => {
   return (
